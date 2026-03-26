@@ -1,0 +1,9 @@
+# Todo App
+
+Eine einfache Kommandozeilen-Todo-App in Python.
+
+## Verwendung
+
+```
+python todo.py
+```
