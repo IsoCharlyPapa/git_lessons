@@ -11,6 +11,10 @@ def list_tasks():
 def complete_task(index):
     tasks[index]["done"] = True
 
+def del_task(index):
+    tasks.remove(index)
+    print(f'Task {index} wurde entfernt')
+
 if __name__ == "__main__":
     add_task("Git lernen")
     add_task("Branches verstehen")
