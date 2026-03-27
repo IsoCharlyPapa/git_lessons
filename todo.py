@@ -15,6 +15,9 @@ def del_task(index):
     tasks.remove(index)
     print(f'Task {index} wurde entfernt')
 
+def show_status(tasks, index):
+    print(tasks[index]["done"])
+
 if __name__ == "__main__":
     add_task("Git lernen")
     add_task("Branches verstehen")
