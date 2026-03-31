@@ -1,4 +1,4 @@
-# Todo App
+# Todo-App
 
 Eine einfache Kommandozeilen-Todo-App in Python.
 
