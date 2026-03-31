@@ -7,3 +7,8 @@ Eine einfache Kommandozeilen-Todo-App in Python.
 ```
 python todo.py
 ```
+
+## Mitwirkende
+
+- Andreas Petker
+- Claude Bot
