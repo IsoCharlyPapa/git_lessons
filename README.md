@@ -12,3 +12,4 @@ python todo.py
 
 - Andreas Petker
 - Claude Bot
+# dark mode
