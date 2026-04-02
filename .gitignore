@@ -1,1 +1,7 @@
 config.local
+
+#Test data
+app.log
+app.log.*
+out.txt
+test.py
