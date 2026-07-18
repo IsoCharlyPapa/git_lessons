@@ -1,24 +1,31 @@
 tasks = []
 
+
 def add_task(title):
     tasks.append({"title": title, "done": False})
+
 
 def list_tasks():
     for i, task in enumerate(tasks):
         status = "x" if task["done"] else " "
         print(f"/Prio[{status}] {i}: {task['title']}")
 
+
 def complete_task(index):
     tasks[index]["done"] = True
 
+
 def del_task(index):
     tasks.remove(index)
-    print(f'Task {index} wurde entfernt')
+    print(f"Task {index} wurde entfernt")
+
 
 def show_status(tasks, index):
     print(tasks[index]["done"])
+
 
 if __name__ == "__main__":
     add_task("Git lernen")
     add_task("Branches verstehen")
     list_tasks()
+    print("git amend ausprobieren")
